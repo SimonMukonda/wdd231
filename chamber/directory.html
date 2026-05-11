@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Directory</title>
+<meta property="og:title" content="South Africa Chamber of Commerce Directory">
+<meta property="og:description" content="Explore businesses that are members of the South African of Commerce.">
+<meta property="og:image" content="https://simonmukonda.github.io/wdd231/chamber/images/hero-image.jpg">
+<meta property="og:url" content="https://simonmukonda.github.io/wdd231/chamber/directory.html">
+
+<meta name="description" content="This is the info page to the businesses">
+<meta name="author" content="Simon Mukonda">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="images/favicon.ico">
+
+<link rel="stylesheet" href="styles/larger.css">
+<link rel="stylesheet" href="styles/small.css">
+
+<script defer src="scripts/navigation.js"></script>
+<script defer src="scripts/directory.js"></script>
+
+</head>
+
+<body>
+
+<header>
+<h1>South African Chamber</h1>
+
+<button id="menuBtn">☰</button>
+
+<nav>
+<ul id="navMenu">
+<li><a href="index.html">Home</a></li>
+<li><a href="directory.html" class="active">Directory</a></li>
+<li><a href="join.html">Join</a></li>
+<li><a href="discover.html">Discover</a></li>
+</ul>
+</nav>
+</header>
+
+<main>
+<h2>Business Directory</h2>
+
+<section class="hero">
+<img src="images/hero-image.webp" alt="South Africa business">
+</section>
+
+<div class="view-buttons">
+<button id="gridBtn">Grid</button>
+<button id="listBtn">List</button>
+</div>
+
+<section id="directory" class="grid"></section>
+
+</main>
+<footer>
+<div class="footer-info">
+    <p><strong>South Africa Chamber of Commerce</strong></p>
+    <p>10 Rue De La Paix</p>
+    <p>Joburg, Mali 999</p>
+    <p>info@southafrica.org</p>
+    <p>+ 27 67 234 1432</p>
+</div>
+
+<div class="footer-social">
+    <a href="https://github.com/yourusername" target="_blank">
+        <img src="icons/github.svg" alt="GitHub">
+    </a>
+    <a href="https://facebook.com/yourprofile" target="_blank">
+        <img src="icons/facebook.svg" alt="Facebook">
+    </a>
+    <a href="https://linkedin.com/in/yourprofile" target="_blank">
+        <img src="icons/linkedin.svg" alt="LinkedIn">
+    </a>
+</div>
+
+
+<div class="footer-dev">
+    <p>Simon Mukonda | WDD 231</p>
+    <p>© <span id="year"></span> South Africa Chamber</p>
+    <p>Last Modification: <span id="lastModified"></span></p>
+</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+/* MOBILE */
+
+#menuBtn{
+display:none;
+font-size:2rem;
+background:#1e3a5f;
+border:none;;
+}
+
+@media (max-width:768px){
+
+  nav ul{
+  display:none;
+  flex-direction:column;
+  }
+
+  nav ul.open{
+  display:flex;
+  }
+
+  #menuBtn{
+  display:block;
+  }
+
+  .hero img{
+  height:250px;
+  }
+
+}
+
+
+
+/* Mobile view: stack social under info */
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-social {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

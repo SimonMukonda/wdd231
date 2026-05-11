@@ -1,0 +1,68 @@
+{
+  "members": [
+    {
+      "name": "Johannesburg Tech Solutions",
+      "address": "Sandton, Johannesburg",
+      "phone": "+27 11 555 1234",
+      "website": "https://example.com",
+      "image": "images/Joburg-tech.webp",
+      "membership": 2
+    },
+    {
+      "name": "Ubuntu Marketing Group",
+      "address": "Rosebank, Johannesburg",
+      "phone": "+27 11 555 5678",
+      "website": "https://example.com",
+      "image": "images/ubuntu-marketing.webp",
+      "membership": 2
+    },
+    {
+      "name": "Mzansi Finance Consulting",
+      "address": "Midrand, Johannesburg",
+      "phone": "+27 11 555 8912",
+      "website": "https://example.com",
+      "image": "images/johannesburg-skyline.webp",
+      "membership": 3
+    },
+    {
+      "name": "African Trade Logistics",
+      "address": "Kempton Park, Johannesburg",
+      "phone": "+27 11 555 1122",
+      "website": "https://example.com",
+      "image": "images/african-trade.webp",
+      "membership": 3
+    },
+    {
+      "name": "Safari Digital Media",
+      "address": "Fourways, Johannesburg",
+      "phone": "+27 11 555 3344",
+      "website": "https://example.com",
+      "image": "images/safari-digitaal.jpg",
+      "membership": 5
+    },
+    {
+      "name": "Rainbow Property Advisors",
+      "address": "Randburg, Johannesburg",
+      "phone": "+27 11 555 5566",
+      "website": "https://example.com",
+      "image": "images/property.png",
+      "membership": 6
+    },
+    {
+      "name": "Cape to Jozi Imports",
+      "address": "Johannesburg CBD",
+      "phone": "+27 11 555 7788",
+      "website": "https://example.com",
+      "image": "images/capetojozi.jpg",
+      "membership": 7
+    },
+    {
+      "name": "Gold City Business Consulting",
+      "address": "Bedfordview, Johannesburg",
+      "phone": "+27 11 555 9900",
+      "website": "https://example.com",
+      "image": "images/Gold-city.webp",
+      "membership": 8
+    }
+  ]
+}
