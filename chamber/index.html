@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>South African Chamber of Commerce</title>
+<meta property="og:title" content="South Africa Chamber of Commerce Directory">
+<meta property="og:description" content="Explore businesses that are members of the South African of Commerce.">
+<meta property="og:image" content="https://simonmukonda.github.io/wdd231/chamber/images/hero-image.webp">
+<meta property="og:url" content="https://simonmukonda.github.io/wdd231/chamber/directory.html">
+>
+
+<meta name="description" content="This is the home page with info about South Africa">
+<meta name="author" content="Simon Mukonda">
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="images/favicon.simon.ico">
+
+<link rel="stylesheet" href="styles/larger.css">
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/home.css">
+
+
+
+<script defer src="scripts/navigation.js"></script>
+<script defer src="scripts/weather.js"></script>
+<script defer src="scripts/spotlight.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>South African Chamber of Commerce</h1>
+
+<button id="menuBtn">☰</button>
+
+<nav>
+<ul id="navMenu">
+<li><a href="index.html" class="active">Home</a></li>
+<li><a href="directory.html">Directory</a></li>
+<li><a href="join.html">Join</a></li>
+<li><a href="discover.html">Discover</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<img src="images/hero-image.webp" alt="Johannesburg skyline">
+
+<div class="hero-cta">
+  <a href="join.html" class="cta-btn">Join the Chamber Today</a>
+</div>
+
+<div class="hero-text">
+<h2>Welcome to South Africa</h2>
+<p>Helping newcomers connect with trusted businesses.</p>
+</div>
+</section>
+
+<main>
+
+<section class="events">
+<h2>Events</h2>
+<p>Business networking events coming soon.</p>
+</section>
+
+<section class="weather">
+<h2>Johannesburg Weather</h2>
+<div id="weather"></div>
+</section>
+
+<section class="spotlights">
+<h2>Business Spotlights</h2>
+<div id="spotlights"></div>
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-info">
+        <p><strong>South Africa Chamber of Commerce</strong></p>
+        <p>10 Rue De La Paix</p>
+        <p>Joburg, Mali 999</p>
+        <p>info@southafrica.org</p>
+        <p>+ 27 67 234 1432</p>
+    </div>
+
+    <div class="footer-social">
+        <a href="https://github.com/yourusername" target="_blank">
+            <img src="icons/github.svg" alt="GitHub">
+        </a>
+        <a href="https://facebook.com/yourprofile" target="_blank">
+            <img src="icons/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">
+            <img src="icons/linkedin.svg" alt="LinkedIn">
+        </a>
+    </div>
+
+    <div class="footer-dev">
+        <p>Simon Mukonda | WDD 231</p>
+        <p>© <span id="year"></span> South Africa Chamber</p>
+        <p>Johannesburg</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </div>
+
+    
+</footer>
+
+</body>
+</html>
