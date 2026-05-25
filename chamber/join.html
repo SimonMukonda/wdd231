@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join The South African Chamber</title>
+<meta property="og:title" content="South Africa Chamber of Commerce Join Page">
+<meta property="og:description" content="Sign up and become a  members of the South African of Commerce chamber and ripe all the benefits.">
+<meta property="og:image" content="https://simonmukonda.github.io/wdd231/chamber/images/hero-image.webp">
+<meta property="og:url" content="https://simonmukonda.github.io/wdd231/chamber/directory.html">
+
+
+<meta name="description" content="This Page is where you can become a memeber our guide chmaber">
+<meta name="author" content="Simon Mukonda">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="icon" href="images/favicon.ico">
+
+<link rel="stylesheet" href="styles/join.css">
+<link rel="stylesheet" href="styles/larger.css">
+<link rel="stylesheet" href="styles/small.css">
+
+<script defer src="scripts/join.js"></script>
+<script defer src="scripts/navigation.js"></script>
+</head>
+
+<body class="join">
+
+<header>
+<h1>South African Chamber of Commerce</h1>
+
+<button id="menuBtn">☰</button>
+
+<nav>
+<ul id="navMenu">
+<li><a href="index.html">Home</a></li>
+<li><a href="directory.html">Directory</a></li>
+<li><a href="join.html" class="active">Join</a></li>
+<li><a href="discover.html">Discover</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<img src="images/hero-image.webp" alt="Johannesburg skyline">
+
+<div class="hero-cta">
+  <a href="#joinForm" class="cta-btn">Fill in Form</a>
+</div>
+
+</section>
+
+<main class="container">
+
+
+  <form method="get" action="thankyou.html" class="form" id="joinForm">
+
+    <h2>Membership Application</h2>
+
+    <label>
+      First Name
+      <input type="text" name="fname" title="First Name" autocomplete="given-name" required>
+    </label>
+
+    <label>
+      Last Name
+      <input type="text" name="lname" title="Last Name" autocomplete="family-name" required>
+    </label>
+
+    <label>
+      Organizational Title
+      <input type="text" name="orgtitle" title="Organization Title"
+        autocomplete="organization-title"
+        pattern="[A-Za-z-\s]{7,}" >
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="email" title="Email"
+        autocomplete="email"
+        placeholder="example@email.com" required>
+    </label>
+
+    <label>
+      Phone
+      <input type="tel" name="phone" title="Phone"
+        autocomplete="tel" required>
+    </label>
+
+    <label>
+      Business Name
+      <input type="text" name="business" title="Business Name"
+        autocomplete="organization" required>
+    </label>
+
+    <label>
+      Membership Level
+      <select name="membership" required>
+        <option value="">Select Level</option>
+        <option value="np">NP Membership</option>
+        <option value="bronze">Bronze</option>
+        <option value="silver">Silver</option>
+        <option value="gold">Gold</option>
+      </select>
+    </label>
+
+    <label>
+      Business Description
+      <textarea name="description" title="Business Description"></textarea>
+    </label>
+
+    <!-- Hidden Timestamp dont for get to style ray-->
+    <input type="hidden" name="timestamp" id="timestamp">
+
+    <input type="submit" value="Apply Now">
+
+  </form>
+
+  <!-- MEMBERSHIP CARDS -->
+  <section class="cards">
+
+    <div class="card">
+      <h3>NP Membership</h3>
+      <a href="#" data-modal="npModal">View Benefits</a>
+    </div>
+
+    <div class="card">
+      <h3>Bronze</h3>
+      <a href="#" data-modal="bronzeModal">View Benefits</a>
+    </div>
+
+    <div class="card">
+      <h3>Silver</h3>
+      <a href="#" data-modal="silverModal">View Benefits</a>
+    </div>
+
+    <div class="card">
+      <h3>Gold</h3>
+      <a href="#" data-modal="goldModal">View Benefits</a>
+    </div>
+
+  </section>
+
+</main>
+
+
+  <dialog id="npModal">
+    <p>Free membership for non-profits.</p>
+    <button class="close-btn">Close</button>
+  </dialog>
+
+  <dialog id="bronzeModal">
+    <p>Basic advertising benefits.</p>
+    <button class="close-btn">Close</button>
+  </dialog>
+
+  <dialog id="silverModal">
+    <p>Event discounts + training.</p>
+    <button class="close-btn">Close</button>
+  </dialog>
+
+  <dialog id="goldModal">
+    <p>Full premium benefits + spotlight ads.</p>
+    <button class="close-btn">Close</button>
+  </dialog>
+
+
+
+<footer>
+    <div class="footer-info">
+        <p><strong>South Africa Chamber of Commerce</strong></p>
+        <p>10 Rue De La Paix</p>
+        <p>Joburg, Mali 999</p>
+        <p>info@southafrica.org</p>
+        <p>+ 27 67 234 1432</p>
+        <p>&copy; Chamber</p>
+    </div>
+
+    <div class="footer-social">
+        <a href="https://github.com/yourusername" target="_blank">
+            <img src="icons/github.svg" alt="GitHub">
+        </a>
+        <a href="https://facebook.com/yourprofile" target="_blank">
+            <img src="icons/facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">
+            <img src="icons/linkedin.svg" alt="LinkedIn">
+        </a>
+    </div>
+
+    <div class="footer-dev">
+        <p>Simon Mukonda | WDD 231</p>
+        <p>© <span id="year"></span> South Africa Chamber</p>
+        <p>Johannesburg</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </div>
+
+</footer>
+
+</body>
+</html>
