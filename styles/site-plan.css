@@ -1,0 +1,32 @@
+body.siteplan {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  margin: 2rem;
+}
+
+header {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+h1, h2, h3 {
+  color: #1e3a5f;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.blue { color: #1e3a5f; font-weight: bold; }
+.white { background-color: #ffffff; padding: 0.2rem 0.5rem; border: 1px solid #ccc; }
+.grey { color: #666666; font-weight: bold; }
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666666;
+}
