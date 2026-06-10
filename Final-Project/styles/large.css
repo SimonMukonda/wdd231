@@ -1,0 +1,23 @@
+@media (min-width: 900px) {
+  nav {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #menuBtn {
+    display: none;
+  }
+
+  .features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Ultra-wide monitor adjustments bec img breaks  */
+@media (min-width: 1600px) {
+  .card img {
+    height: 330px;   
+    object-fit: cover;
+  }
+}

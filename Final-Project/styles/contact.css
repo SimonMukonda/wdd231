@@ -1,0 +1,102 @@
+/* Contact Page Styling for my forms */
+form {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #1e3a5f;
+}
+
+form input,
+form textarea {
+  margin-top: 0.5rem;
+  padding: 0.8rem;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #1e3a5f;
+  outline: none;
+  box-shadow: 0 0 4px rgba(30,58,95,0.4);
+}
+
+form button {
+  background: #1e3a5f;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #16304a;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  form {
+    padding: 1rem;
+  }
+}
+
+
+
+
+/* Thank You Page Styling */
+#thankMessage {
+  max-width: 600px;
+  margin: 3rem auto;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#thankMessage h1 {
+  color: #1e3a5f;
+  margin-bottom: 1rem;
+}
+
+#thankMessage p {
+  color: #333333;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+main .cta {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+
+/* Contact Page Intro Text */
+.contact-intro {
+  max-width: 600px;
+  margin: 2rem auto 1rem auto;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #1e3a5f;
+  background: #f1f5f9;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+

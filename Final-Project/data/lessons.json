@@ -1,0 +1,17 @@
+[
+  {"title":"HTML Basics","description":"Intro to HTML","level":"Beginner","topic":"HTML"},
+  {"title":"Tags","description":"HTML tags","level":"Beginner","topic":"HTML"},
+  {"title":"Forms","description":"HTML forms","level":"Beginner","topic":"HTML"},
+  {"title":"CSS Intro","description":"Intro CSS","level":"Beginner","topic":"CSS"},
+  {"title":"Selectors","description":"CSS selectors","level":"Beginner","topic":"CSS"},
+  {"title":"Flexbox","description":"Layout","level":"Intermediate","topic":"CSS"},
+  {"title":"Grid","description":"Grid layout","level":"Intermediate","topic":"CSS"},
+  {"title":"JS Basics","description":"Intro JS","level":"Beginner","topic":"JS"},
+  {"title":"Variables","description":"JS vars","level":"Beginner","topic":"JS"},
+  {"title":"Functions","description":"JS functions","level":"Beginner","topic":"JS"},
+  {"title":"Arrays","description":"JS arrays","level":"Intermediate","topic":"JS"},
+  {"title":"Objects","description":"JS objects","level":"Intermediate","topic":"JS"},
+  {"title":"DOM","description":"DOM manipulation","level":"Intermediate","topic":"JS"},
+  {"title":"Events","description":"JS events","level":"Intermediate","topic":"JS"},
+  {"title":"Fetch API","description":"API calls","level":"Advanced","topic":"JS"}
+]
